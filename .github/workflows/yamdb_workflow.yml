@@ -45,7 +45,7 @@ jobs:
           context: .
           file: ./api_yamdb/Dockerfile
           push: true
-          tags: morozovp/yamdb:latest
+          tags: morozovp/yamdb
                     
   deploy:
     runs-on: ubuntu-latest
