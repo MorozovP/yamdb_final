@@ -9,7 +9,7 @@ services:
       - ./.env
       
   yamdb:
-    image: yamdb:latest
+    image: ../api_yamdb/
     restart: always
     volumes:
       - static_value:/app/static/
