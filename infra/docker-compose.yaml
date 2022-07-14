@@ -9,7 +9,7 @@ services:
       - ./.env
       
   yamdb:
-    build: ../api_yamdb/
+    image: morozovp/yamdb_local
     restart: always
     volumes:
       - static_value:/app/static/
@@ -33,3 +33,4 @@ services:
 volumes:
   static_value:
   media_value:
+
