@@ -9,7 +9,7 @@ services:
       - ./.env
       
   yamdb:
-    image: morozovp/yamdb:latest
+    build: ../api_yamdb/
     restart: always
     volumes:
       - static_value:/app/static/
