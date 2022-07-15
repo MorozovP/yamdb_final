@@ -47,7 +47,7 @@ docker-compose exec yamdb python manage.py createsuperuser
 docker-compose exec yamdb python manage.py collectstatic --no-input
 ```
 
-!(https://github.com/MorozovP/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+![workflow bagde](https://github.com/MorozovP/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 ### Об авторе
 Выполнил Морозов Павел 
